@@ -40,7 +40,7 @@ Vamos a explorar cada uno de estos pilares para construir una base sólida sobre
 ## Contribuciones
 Este repositorio es un recurso de aprendizaje, y las contribuciones son bienvenidas. Si encuentras algún error o tienes sugerencias de mejora, no dudes en abrir un issue o enviar un pull request.
 
-## Licencia
+## Licencias
 Este repositorio está protegido bajo una licencia específica que limita su uso al contexto educativo de este curso. Consulta el archivo LICENSE para más detalles.
 
 
