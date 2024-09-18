@@ -1,22 +1,21 @@
-body {
-    background: #000;
-    margin: 5vh 5vw;
-}
-
 .container {
     display: flex;
-    width: 90vw;
+    gap: 0px;
     height: 90vh;
+    width: 90vw;
     margin: auto;
-    gap: 5px
 }
 
 .container img {
-    width: 0px;
+    width: 0%;
     flex-grow: 1;
     object-fit: cover;
-    opacity: .8;
     transition: .5s ease;
+}
+
+body {
+    background: rgba(160, 77, 9, 0.815);
+    margin: 5vh 5vw;
 }
 
 .container img:hover {
@@ -26,13 +25,16 @@ body {
     filter: contrast(120%);
 }
 
-@media (max-width: 600px) {
+@media (width < 600px) {
     .container {
         flex-direction: column;
     }
 
+
+
+
     .container img {
-        height: 0px;
+        height: 0%;
         width: 90vw;
     }
 
@@ -40,4 +42,5 @@ body {
         width: 90vw;
         height: 60vh;
     }
+
 }
